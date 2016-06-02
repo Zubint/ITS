@@ -1,0 +1,86 @@
+/* Add here all your css styles (customizations) */
+
+.one-page-header {
+  border-bottom: none;
+  /*background: rgba(0,0,0,0.4);*/
+  background: rgba(255,255,255,0.6);
+}
+
+h3{
+  /*font-size: 28px;*/
+  color:pink;
+  margin-top:25px;
+}
+
+h2{
+  /*font-size: 32px;*/
+  color:white;
+  font-weight: 400;
+}
+
+.hidden{
+
+  visibility:hidden;
+}
+
+.visible{
+  color: red;
+  visibility: visible;
+}
+
+li.page-scroll{
+    list-style: none;
+}
+
+.contacts-section {
+  /*color: #fff;*/
+  position: relative;
+  background: url('/assets/img/bg/buffs_lt.jpg') center fixed;
+  background-size: cover;
+}
+
+p.services{
+  font-size: 1.3em;
+  text-align: center;
+}
+
+#conversation{
+  width: 100%;
+  padding: 3%;
+  text-align: center;
+  background-color: #a10f2b;
+  margin:0px;
+  color: white;
+}
+#conversation h1{
+  color:white;
+  size: 3em;
+}
+
+#conversation p{
+  color: white;
+  size: 1.5em;
+}
+
+a#menu{
+  color: #4A3613;
+}
+
+#local {
+  background: url('/assets/img/local_lt.jpg');
+}
+
+#activities{
+  background: url('/assets/img/balloon.png');
+}
+
+#locations{
+  background: url('/assets/img/coast.jpg');
+}
+
+#logo{
+  margin: 4px;
+  height: 65px;
+  width: auto;
+  /*display: inline-block;*/
+}
